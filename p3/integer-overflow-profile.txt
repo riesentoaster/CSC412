@@ -1,0 +1,192 @@
+INTEGER OVERFLOW
+0x00000000004006a1 "shl    bl, cl"
+=>BACKTRACE
+#0   0x00000000004006a1 in sig_shift_8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:30]
+#1   0x00000000004006db in case8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:42]
+#2   0x0000000000400b34 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400647 "add    al, bl"
+=>BACKTRACE
+#0   0x0000000000400647 in sig_add_8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:8]
+#1   0x0000000000400702 in case8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:45]
+#2   0x0000000000400b34 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400647 "add    al, bl"
+=>BACKTRACE
+#0   0x0000000000400647 in sig_add_8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:8]
+#1   0x0000000000400720 in case8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:46]
+#2   0x0000000000400b34 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400673 "sub    al, bl"
+=>BACKTRACE
+#0   0x0000000000400673 in sig_sub_8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:19]
+#1   0x0000000000400734 in case8 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:47]
+#2   0x0000000000400b34 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400809 "shl    bx, cl"
+=>BACKTRACE
+#0   0x0000000000400809 in sig_shift_16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:76]
+#1   0x000000000040084a in case16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:88]
+#2   0x0000000000400b4d in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00000000004007a5 "add    ax, bx"
+=>BACKTRACE
+#0   0x00000000004007a5 in sig_add_16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:54]
+#1   0x0000000000400874 in case16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:91]
+#2   0x0000000000400b4d in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00000000004007a5 "add    ax, bx"
+=>BACKTRACE
+#0   0x00000000004007a5 in sig_add_16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:54]
+#1   0x0000000000400891 in case16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:92]
+#2   0x0000000000400b4d in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00000000004007d6 "sub    ax, bx"
+=>BACKTRACE
+#0   0x00000000004007d6 in sig_sub_16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:65]
+#1   0x00000000004008a6 in case16 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:93]
+#2   0x0000000000400b4d in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x000000000040092d "shl    edx, cl"
+=>BACKTRACE
+#0   0x000000000040092d in sig_shift_32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:110]
+#1   0x0000000000400965 in case32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:117]
+#2   0x0000000000400b66 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400905 "add    eax, edx"
+=>BACKTRACE
+#0   0x0000000000400905 in sig_add_32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:100]
+#1   0x0000000000400988 in case32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:120]
+#2   0x0000000000400b66 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400905 "add    eax, edx"
+=>BACKTRACE
+#0   0x0000000000400905 in sig_add_32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:100]
+#1   0x00000000004009a0 in case32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:121]
+#2   0x0000000000400b66 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400916 "sub    eax, dword ptr [rbp-0x08]"
+=>BACKTRACE
+#0   0x0000000000400916 in sig_sub_32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:105]
+#1   0x00000000004009b2 in case32 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:122]
+#2   0x0000000000400b66 in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400a3f "shl    rax, cl"
+=>BACKTRACE
+#0   0x0000000000400a3f in sig_shift_64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:138]
+#1   0x0000000000400a7d in case64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:145]
+#2   0x0000000000400b7f in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400a0c "add    rax, rdx"
+=>BACKTRACE
+#0   0x0000000000400a0c in sig_add_64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:128]
+#1   0x0000000000400aab in case64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:148]
+#2   0x0000000000400b7f in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400a0c "add    rax, rdx"
+=>BACKTRACE
+#0   0x0000000000400a0c in sig_add_64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:128]
+#1   0x0000000000400acb in case64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:149]
+#2   0x0000000000400b7f in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x0000000000400a21 "sub    rax, qword ptr [rbp-0x10]"
+=>BACKTRACE
+#0   0x0000000000400a21 in sig_sub_64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:133]
+#1   0x0000000000400ae2 in case64 at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:150]
+#2   0x0000000000400b7f in main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007fc71e919553 in __libc_start_main at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#4   0x0000000000400574 in <MISSING> at [/afs/unity.ncsu.edu/users/v/vhuber/csc_412_512_final_project/test_apps/src/test1.c:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[9097]_ROOT_CTXT at [<NULL>:0]
+
+
